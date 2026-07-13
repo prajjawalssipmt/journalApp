@@ -12,5 +12,5 @@ In version 2, it uses mongoDB to store data using Spring Data MongoDB.
 in next version, we will add ResponseEntity to show the status code while sending data to collection.
 
 
-# journalApp_V2
+# journalApp_V3
 In version 3, we have added ResponseEntity class for the Http Status code in the controller package in JournalEntryControllerV2.java
