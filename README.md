@@ -11,3 +11,6 @@ In version 2, it uses mongoDB to store data using Spring Data MongoDB.
 @Document annotation is used to map class to mongoDB collection and @Id annotation is uses to set a primary key.
 in next version, we will add ResponseEntity to show the status code while sending data to collection.
 
+
+# journalApp_V2
+In version 3, we have added ResponseEntity class for the Http Status code in the controller package in JournalEntryControllerV2.java
