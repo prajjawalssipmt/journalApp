@@ -20,3 +20,4 @@
 5. Reference created of journalEntry to every User means we will store the objectId reference of journalEntry in users table.
 6. @DBRef is used to map journalEntry of each User.
 7. Build relation b/w user and journalEntry collection.
+8. Added @Transasctional, means if any error occurred b/w saving an entry then it will roll back.
