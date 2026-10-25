@@ -21,3 +21,9 @@
 6. @DBRef is used to map journalEntry of each User.
 7. Build relation b/w user and journalEntry collection.
 8. Added @Transasctional, means if any error occurred b/w saving an entry then it will roll back.
+
+# Version 5
+1. Build a connection b/w local to mongodb atlas server database.
+2. Adding spring security
+3. Added user roles.
+4. Add UserDetailServiceImpl in service package which find user using userName & is used for the authentication and authorization based on roles.
