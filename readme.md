@@ -32,3 +32,4 @@
 # Version 6
 In this version, we added USER based authentication.
 Each user can view, delete, update its journal entry.
+Also added admin who can view all users and its entry.
