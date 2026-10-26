@@ -27,3 +27,8 @@
 2. Adding spring security
 3. Added user roles.
 4. Add UserDetailServiceImpl in service package which find user using userName & is used for the authentication and authorization based on roles.
+
+
+# Version 6
+In this version, we added USER based authentication.
+Each user can view, delete, update its journal entry.
