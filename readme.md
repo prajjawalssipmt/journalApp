@@ -30,6 +30,11 @@
 
 
 # Version 6
-In this version, we added USER based authentication.
-Each user can view, delete, update its journal entry.
-Also added admin who can view all users and its entry.
+1. In this version, we added USER based authentication.
+2. Each user can view, delete, update its journal entry.
+3. Also added admin who can view all users and its entry.
+
+# Version 7
+1. Written profiles for "dev" & "prod"
+2. Currently, add logger in the UserService to generate a log to check the user is saving used userName.
+3. Logs are generating in every hour.
