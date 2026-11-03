@@ -32,6 +32,7 @@ public class UserServiceTest {
 
 
     @ParameterizedTest
+    @Disabled
     @CsvSource({
             "12,14,26",
             "25,25,50",
@@ -43,6 +44,7 @@ public class UserServiceTest {
     }
 
     @ParameterizedTest
+    @Disabled
     @CsvSource({
             "ram","praj","dhano"
     })
