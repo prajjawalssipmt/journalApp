@@ -41,6 +41,7 @@
 
 
 # Version 8
-1. Created WeatherResponse Class from external weather api to convert JSON to pojo
-2. Update in UserController to make GetMapping call through greeting() method
-3. Created WeatherService class, which is called through UserController.
+1. We used RestTemplate class to use external api in this application
+2. Created WeatherResponse Class from external weather api and convert JSON to pojo
+3. Update in UserController to make GetMapping call through greeting() method
+4. Created WeatherService class, which is called through UserController.
