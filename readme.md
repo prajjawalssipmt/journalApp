@@ -38,3 +38,9 @@
 1. Written profiles for "dev" & "prod"
 2. Currently, add logger in the UserService to generate a log to check the user is saving used userName.
 3. Logs are generating in every hour.
+
+
+# Version 8
+1. Created WeatherResponse Class from external weather api to convert JSON to pojo
+2. Update in UserController to make GetMapping call through greeting() method
+3. Created WeatherService class, which is called through UserController.
