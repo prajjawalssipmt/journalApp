@@ -52,7 +52,6 @@ public class UserController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
-
     @GetMapping
     public ResponseEntity<?> greetings(){
 
@@ -64,7 +63,5 @@ public class UserController {
         }
         return new ResponseEntity<>("Hi "+ authentication.getName()+ greeting ,HttpStatus.OK);
     }
-
-
 
 }
